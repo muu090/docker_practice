@@ -39,7 +39,7 @@ services:
     ports:
       - "33306:3306"
 
-  # データ永続化領域
-  volumes:
-    bundle_data:
-    mysql_data:
+# データ永続化領域
+volumes:
+  bundle_data:
+  mysql_data:
